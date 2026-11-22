@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+data/accounts.json
+data/state.json
+data/state.json.tmp
+data/state.json.corrupt-*
