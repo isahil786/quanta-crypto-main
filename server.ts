@@ -84,7 +84,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export const app = express();
-const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000;
+const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 6000;
 const isDev = process.env.NODE_ENV === 'development' || process.argv.includes('--dev');
 
 // Behind Render/Docker proxies every client shares the proxy's IP unless we trust X-Forwarded-For,
